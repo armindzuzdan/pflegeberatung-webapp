@@ -2,11 +2,14 @@
 
 Eine React-Webanwendung zur digitalen Dokumentation von Pflegeberatungen.
 
-Die Anwendung enthält eine Patientenverwaltung mit fiktiven Demo-Daten, Beratungsformulare mit Pflichtfeldern, Statusverwaltung für Termine und Beratungen, digitale Unterschriften sowie PDF- und XML-Export.
+Die Anwendung ist als digitale Arbeitsoberfläche für Vertriebler und Beratungspersonen gedacht, die Patientengespräche führen und die erfassten Informationen strukturiert weiterverarbeiten müssen. Patientendaten, Beratungstermine und Gesprächsdokumentationen können zentral verwaltet werden. Nach Abschluss einer Beratung lassen sich die Daten direkt als PDF oder XML exportieren.
+
+Demo: [https://testpatienten.netlify.app/](https://testpatienten.netlify.app/)
 
 ## Features
 
 - Patientenverwaltung mit fiktiven Demo-Daten
+- Übersicht über offene und erledigte Beratungstermine
 - Dokumentation von Pflegeberatungen
 - Beratungsformulare mit Pflichtfeldern
 - Statusverwaltung für offene und erledigte Termine
@@ -100,6 +103,8 @@ Es werden keine echten Patientendaten, privaten Unterschriften oder sensiblen Do
 
 Lokale Datenbanken, private Dateien, `.env`-Dateien und installierte Abhängigkeiten sind über `.gitignore` vom Repository ausgeschlossen.
 
-## Zweck des Projekts
+## Ziel der Anwendung
 
-Dieses Projekt dient als Portfolio-Projekt für React-Webentwicklung. Es zeigt den Aufbau einer fachlichen Webanwendung mit Formularlogik, Statusverwaltung, Exportfunktionen und responsivem UI.
+Ziel der Anwendung ist es, den Ablauf rund um Patientengespräche und Pflegeberatungen digital zu unterstützen. Vertriebler oder Beratungspersonen können Patientenkontakte verwalten, Gesprächsdaten erfassen, Beratungen dokumentieren und die fertigen Informationen anschließend direkt als PDF oder XML weitergeben.
+
+Damit bildet die WebApp nicht nur eine Oberfläche für Formulare ab, sondern einen vollständigen kleinen Workflow: vom Patientenkontakt über den Beratungstermin bis zum exportierbaren Dokument.
